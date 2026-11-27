@@ -1,1 +1,80 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#073D32">
+<title>DIVINE STARS DATA</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f7f5;color:#10243d}
+header{background:#073d32;color:white;padding:20px;display:flex;justify-content:space-between;font-weight:bold}
+header span{color:#dcc477}
+.hero{background:linear-gradient(135deg,#073d32,#10243d);color:white;padding:38px 22px;border-radius:0 0 25px 25px}
+.hero small{color:#dcc477;letter-spacing:2px}
+h1{font-size:29px;line-height:1.2}
+.hero p{line-height:1.6}
+button{background:#073d32;color:white;border:0;padding:13px 18px;border-radius:9px;font-weight:bold}
+main{padding:20px;max-width:650px;margin:auto}
+.wallet,.service,.referral{background:white;padding:20px;border-radius:15px;margin-bottom:16px;box-shadow:0 3px 12px #10243d12}
+.wallet small{color:#687a75}
+.balance{font-size:30px;font-weight:bold;margin:12px 0}
+h2{font-size:21px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.service{text-align:center;margin:0;padding:20px 8px}
+.service b{display:block;margin-top:10px}
+.icon{font-size:29px}
+.service p{font-size:12px;color:#687a75}
+.referral{background:#10243d;color:white;margin-top:22px}
+.referral h2{color:#dcc477}
+footer{background:#073d32;color:white;text-align:center;padding:25px;line-height:1.8}
+footer span{color:#dcc477}
+</style>
+</head>
+<body>
+<header>
+<div>DIVINE STARS <span>DATA</span></div>
+<div>☰</div>
+</header>
+
+<section class="hero">
+<small>A BABYLOVE BRAND</small>
+<h1>Welcome to DIVINE STARS DATA</h1>
+<p>Your trusted destination for affordable data, airtime and digital payments.</p>
+<button onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">Explore Services</button>
+</section>
+
+<main>
+<section class="wallet">
+<small>MY WALLET BALANCE</small>
+<div class="balance">₦0.00</div>
+<button onclick="alert('Wallet funding coming soon')">+ Fund Wallet</button>
+</section>
+
+<h2 id="services">Our Services</h2>
+<div class="grid">
+<div class="service"><div class="icon">📶</div><b>Buy Data</b><p>Affordable data bundles</p></div>
+<div class="service"><div class="icon">📱</div><b>Buy Airtime</b><p>All major networks</p></div>
+<div class="service"><div class="icon">📺</div><b>Cable TV</b><p>TV subscriptions</p></div>
+<div class="service"><div class="icon">⚡</div><b>Electricity</b><p>Pay your bills</p></div>
+<div class="service"><div class="icon">🎓</div><b>Exam Pins</b><p>Exam services</p></div>
+<div class="service"><div class="icon">🎁</div><b>Refer & Earn</b><p>Invite your friends</p></div>
+</div>
+
+<section class="referral">
+<h2>Refer. Earn. Grow.</h2>
+<p>Invite friends to Divine Stars Data and earn rewards through our referral programme.</p>
+</section>
+</main>
+
+<footer>
+<strong>DIVINE STARS DATA</strong><br>
+DATA • AIRTIME • BILL PAYMENTS<br>
+<span>RESELL • EARN • GROW</span><br>
+A BABYLOVE BRAND<br>
+© 2026 Divine Stars Data
+</footer>
+</body>
+</html>
